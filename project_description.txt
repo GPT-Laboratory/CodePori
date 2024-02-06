@@ -1,0 +1,25 @@
+"""Objective:
+Create a Python-based facial recognition system for automated attendance tracking, with a Tkinter UI and CSV data logging.
+
+Features:
+
+Enroll Faces: Capture and store facial data.
+Recognize & Record: Identify faces and log attendance in CSV format.
+Manual Entry: For attendance adjustments.
+Review Logs: Access and review attendance data.
+UI Overview:
+
+Main View: Live camera feed and status updates.
+Buttons: Start/Stop recognition, Add person, Manual entry, Exit.
+Status Bar: Display recent activity.
+Logs Window: View and check attendance records.
+Tech Stack:
+
+Python, Tkinter, OpenCV, Pandas.
+Real-time face detection and recognition.
+Automated CSV file generation for records.
+Operation:
+
+Begin recognition; capture feed.
+Register faces; mark attendance.
+Exit securely; data saved to CSV.
