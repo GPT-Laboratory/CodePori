@@ -1,18 +1,16 @@
 # Project Title
 
-**CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents**
+**CodePori: Large Scale System for Autonomous Software Development by Using Multi-Agents**
 
 ## Description
 
-CodePori is a novel model designed to automate code generation for extensive and complex 
+CodePori is a novel system designed to automate code generation for extensive and complex 
 software projects given a high-level description. We employ LLM-based multi-AI agents to handle creative
 and challenging tasks in autonomous software development. Each agent engages with a specific task, including 
 system design, code development, code review, code verification, and test engineering. CodePori is capable of 
 generating running code for large-scale projects, completing the entire software development process in minutes
 rather than hours, and at a cost of a few dollars. It identifies and mitigates potential security vulnerabilities
-and corrects errors while maintaining a solid code performance level. We conducted an evaluation of CodePori against
-existing solutions using HumanEval and the Massively Multitask Benchmark for Python (MBPP) benchmark. 
-The results indicate that CodePori improves upon the benchmarks in terms of code accuracy, efficiency, and overall performance.
+and corrects errors while maintaining a solid code performance level. 
 
 ## Getting Started
 
@@ -47,4 +45,6 @@ After obtaining the code for the given description, you may need to install libr
 ### Please Note:
 
 The code execution for larger projects may take approximately 15 to 20 minutes to complete.
+
+
 
